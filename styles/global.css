@@ -1,0 +1,23 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+html {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  color: #252c30;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Libre Baskerville', serif;
+}
+
+:root {
+  --green: #88B44E;
+  --black: #252c30;
+}

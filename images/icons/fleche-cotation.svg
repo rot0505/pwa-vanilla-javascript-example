@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="426.149" height="208.189" viewBox="0 0 426.149 208.189">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.476" y1="-1.057" x2="0.463" y2="0.771" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f1ac04"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="Groupe_306" data-name="Groupe 306" transform="translate(-0.304 235) rotate(-90)" opacity="0.248">
+    <path id="Polygone_2" data-name="Polygone 2" d="M212.5,0,425,166H0Z" transform="translate(235 0.304) rotate(90)" fill="url(#linear-gradient)"/>
+    <path id="Tracé_375" data-name="Tracé 375" d="M212.5,0,426.149,140.189,0,133.45Z" transform="translate(167 0.304) rotate(90)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

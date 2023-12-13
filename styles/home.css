@@ -1,0 +1,265 @@
+.home .top-title {
+  color: var(--green);
+  font-style: italic;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.home .title {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.home .vector {
+  width: 50%;
+  height: 2px;
+  background-color: var(--green);
+  display: block;
+  position: relative;
+}
+
+.home .vector::after {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-color: #252C30;
+  border-radius: 50%;
+  border: 10px solid white;
+  left: calc(50% - 15px);
+  top: -15px;
+}
+
+.home .main {
+  background-image: url('/img/home/main.jpg');
+  width: 100%;
+  height: calc(100vh - 86px);
+  background-size: cover;
+  background-position: center;
+}
+
+.home .main .content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 170px;
+  padding-left: 100px;
+  width: 50%;
+  align-items: center;
+}
+
+.home .main .content .title {
+  color: white;
+}
+
+
+.home .main .content .title.italic {
+  font-style: italic;
+}
+
+.home .main .content .btns {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.home .main .content .download {
+  background-color: #a57355;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  width: 210px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home .main .content .signin {
+  background-color: #53a353;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  width: 210px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home .about-us {
+  display: flex;
+  gap: 50px;
+  padding: 100px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.home .about-us .images {
+  width: calc(50% - 25px);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 100px;
+}
+
+.home .about-us .images img {
+  width: calc(50% - 10px);
+}
+
+.home .about-us .content {
+  width: calc(50% - 25px);
+}
+
+.home .about-us .content .title {
+  margin-top: 30px;
+}
+
+.home .about-us .content .vector {
+  width: 60%;
+  margin: 50px 0 30px;
+}
+
+.home .about-us .content .history {
+  display: flex;
+  gap: 20px;
+  padding: 20px 0;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.home .about-us .content .history:last-child {
+  border-bottom: none;
+}
+
+.home .about-us .content .history img {
+  width: 200px;
+  height: 150px;
+}
+
+
+.home .about-us .content .history h5 {
+  font-weight: 700;
+}
+
+.home .our-services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
+  background-image: url('/img/home/about-us-bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.home .our-services .title {
+  margin: 20px 0 0;
+}
+
+.home .our-services .vector {
+  width: 400px;
+  margin: 30px 0;
+}
+
+.home .our-services .content-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.home .our-services .content-wrap .card-wrap {
+  width: calc(25% - 30px);
+  text-decoration: none;
+  height: 380px;
+  color: var(--black);
+}
+
+.home .our-services .content-wrap .card-wrap img {
+  width: 100%;
+  height: 75%;
+}
+
+.home .our-services .content-wrap .content {
+  background-color: white;
+  width: calc(100% - 40px);
+  height: 120px;
+  margin: -50px auto 0;
+  position: relative;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, .075);
+}
+
+.home .our-services .content-wrap h4 {
+  color: var(--green);
+  font-weight: 700;
+}
+
+.home .affiliate-program {
+  display: flex;
+  gap: 50px;
+  padding: 100px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.home .affiliate-program img {
+  width: 45%;
+}
+
+.home .affiliate-program .content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.home .affiliate-program .content .btn-affliate {
+  background-color: var(--green);
+  color: white;
+  border-radius: 50rem;
+  padding: 1rem 3rem;
+  width: 50%;
+}
+
+.home .contact-us {
+  background-image: url('/img/home/about-us-bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.home .contact-us .wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+  gap: 30px;
+}
+
+.home .contact-us .content {
+  display: flex;
+  gap: 30px;
+}
+
+.home .contact-us .content p {
+  width: 50%;
+}
+
+.home .contact-us .contact-form .row {
+  margin-bottom: 16px;
+}
+
+.home .contact-us .contact-form .btn-submit {
+  background-color: var(--green);
+  color: white;
+  width: 100%;
+}

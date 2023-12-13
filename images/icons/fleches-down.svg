@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="114.427" viewBox="0 0 50 114.427">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.4" y1="-2.367" x2="0.461" y2="0.936" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f1ac04"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="Groupe_14920" data-name="Groupe 14920" transform="translate(348 -1148) rotate(90)">
+    <g id="Groupe_306" data-name="Groupe 306" transform="translate(1121.189 297.696)" opacity="0.848">
+      <path id="Polygone_2" data-name="Polygone 2" d="M24.933,0,49.865,19.477H0Z" transform="translate(51.238 0.304) rotate(90)" fill="url(#linear-gradient)"/>
+      <path id="Tracé_375" data-name="Tracé 375" d="M24.933,0,50,16.448,0,15.658Z" transform="translate(43.259 0.304) rotate(90)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Groupe_306-2" data-name="Groupe 306" transform="translate(1166.189 297.696)" opacity="0.848">
+      <path id="Polygone_2-2" data-name="Polygone 2" d="M24.933,0,49.865,19.477H0Z" transform="translate(51.238 0.304) rotate(90)" fill="url(#linear-gradient)"/>
+      <path id="Tracé_375-2" data-name="Tracé 375" d="M24.933,0,50,16.448,0,15.658Z" transform="translate(43.259 0.304) rotate(90)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Groupe_306-3" data-name="Groupe 306" transform="translate(1211.189 297.696)" opacity="0.848">
+      <path id="Polygone_2-3" data-name="Polygone 2" d="M24.933,0,49.865,19.477H0Z" transform="translate(51.238 0.304) rotate(90)" fill="url(#linear-gradient)"/>
+      <path id="Tracé_375-3" data-name="Tracé 375" d="M24.933,0,50,16.448,0,15.658Z" transform="translate(43.259 0.304) rotate(90)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>
